@@ -2,12 +2,10 @@
 from plone.dexterity.content import Container
 from plone.schema.email import Email
 from plone.supermodel.model import Schema
-from portal_uft import validators
 from portal_uft import _
+from portal_uft import validators
 from zope import schema
 from zope.interface import implementer
-
-import re
 
 
 class IPerson(Schema):
