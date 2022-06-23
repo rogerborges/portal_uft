@@ -2,14 +2,12 @@
 from plone.dexterity.content import Container
 from plone.schema.email import Email
 from plone.supermodel.model import Schema
+from portal_uft import validators
 from portal_uft import _
 from zope import schema
 from zope.interface import implementer
 
-
-def is_valid_email(value: str) -> bool:
-    """Check if email is from UFT."""
-    return value.endswith("@uft.edu.br")
+import re
 
 
 class IPerson(Schema):
@@ -24,7 +22,7 @@ class IPerson(Schema):
     email = Email(
         title=_("person_email", default="E-mail"),
         required=True,
-        constraint=is_valid_email,
+        constraint=validators.is_valid_email,
     )
 
     extension = schema.TextLine(
@@ -32,6 +30,7 @@ class IPerson(Schema):
             "Extension",
         ),
         required=False,
+        constraint=validators.is_valid_extension,
     )
 
 

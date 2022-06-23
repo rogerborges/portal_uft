@@ -17,7 +17,7 @@ class TestPortalSettings(unittest.TestCase):
     def test_portal_title(self):
         """Test portal title."""
         value = api.portal.get_registry_record("plone.site_title")
-        expected = "Portal UFT Exercicio8"
+        expected = "Portal UFT"
         self.assertEqual(value, expected)
 
     def test_portal_timezone(self):
@@ -40,5 +40,5 @@ class TestPortalSettings(unittest.TestCase):
     def test_portal_email_name(self):
         """Valida o nome usado pelo email do portal."""
         value = api.portal.get_registry_record("plone.email_from_name")
-        expected = "Portal UFT Exercicio8"
+        expected = "Portal UFT"
         self.assertEqual(value, expected)
