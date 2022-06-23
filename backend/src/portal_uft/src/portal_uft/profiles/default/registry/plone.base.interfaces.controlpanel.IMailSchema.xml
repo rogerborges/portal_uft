@@ -1,11 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <registry>
-  <records interface="plone.base.interfaces.controlpanel.IMailSchema"
-           prefix="plone"
-  >
+  <records interface="plone.base.interfaces.controlpanel.IMailSchema" prefix="plone">
     <value key="email_charset">utf-8</value>
     <value key="email_from_address">paulorogerio@uft.edu.br</value>
-    <value key="email_from_name">Portal UFT Exercicio8</value>
+    <value key="email_from_name">Portal UFT</value>
     <value key="smtp_host">localhost</value>
     <value key="smtp_pass">admin</value>
     <value key="smtp_port">25</value>
