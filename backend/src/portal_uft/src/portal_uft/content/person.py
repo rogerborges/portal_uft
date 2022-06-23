@@ -11,6 +11,7 @@ def is_valid_email(value: str) -> bool:
     """Check if email is from UFT."""
     return value.endswith("@uft.edu.br")
 
+
 class IPerson(Schema):
     """Schema of a person profile."""
 
@@ -20,7 +21,11 @@ class IPerson(Schema):
         title=_("person_description", default="Biography"), required=False
     )
 
-    email = Email(title=_("person_email", default="E-mail"), required=True)
+    email = Email(
+        title=_("person_email", default="E-mail"),
+        required=True,
+        constraint=is_valid_email,
+    )
 
     extension = schema.TextLine(
         title=_(
