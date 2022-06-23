@@ -7,6 +7,10 @@ from zope import schema
 from zope.interface import implementer
 
 
+def is_valid_email(value: str) -> bool:
+    """Check if email is from UFT."""
+    return value.endswith("@uft.edu.br")
+
 class IPerson(Schema):
     """Schema of a person profile."""
 
