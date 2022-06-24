@@ -18,19 +18,6 @@ class IPerson(Schema):
         title=_("person_description", default="Biography"), required=False
     )
 
-    email = Email(
-        title=_("person_email", default="E-mail"),
-        required=True,
-    )
-
-    extension = schema.TextLine(
-        title=_(
-            "Extension",
-        ),
-        required=False,
-        constraint=validators.is_valid_extension,
-    )
-
     @invariant
     def validate_email(data):
         """Validate email set by the user."""
