@@ -1,6 +1,7 @@
 from kitconcept import api
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
+from portal_uft import validators
 from portal_uft.content.campus import ICampus
 from portal_uft.testing import PORTAL_UFT_INTEGRATION_TESTING
 from zope.component import createObject
@@ -47,3 +48,15 @@ class CampusIntegrationTest(unittest.TestCase):
         )
         self.assertTrue(ICampus.providedBy(obj))
         self.assertEqual(obj, self.portal["palmas"])
+
+    def test_subscriber_added(self):
+        obj = api.content.create(
+            container=self.portal,
+            type=self.portal_type,
+            title="Palmas",
+            description="Campus da UFT em Palmas",
+            email="palmas@uft.edu.br",
+            city="palmas",
+            extension="2022",
+        )
+        self.assertIn("Campus: palmas", obj.subject)
