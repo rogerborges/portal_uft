@@ -60,3 +60,20 @@ class CampusIntegrationTest(unittest.TestCase):
             extension="2022",
         )
         self.assertIn("Campus: palmas", obj.subject)
+
+    def test_subscriber_modified(self):
+        from zope.event import notify
+        from zope.lifecycleevent import ObjectModifiedEvent
+
+        obj = api.content.create(
+            container=self.portal,
+            type=self.portal_type,
+            title="Palmas",
+            description="Campus da UFT em Araguaína",
+            email="araguaina@uft.edu.br",
+            city="araguaina",
+            extension="2022",
+        )
+        obj.city = "araguaina"
+        notify(ObjectModifiedEvent(obj))
+        self.assertIn("Campus: araguaina", obj.subject)
