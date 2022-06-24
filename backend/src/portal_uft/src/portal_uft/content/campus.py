@@ -5,6 +5,7 @@ from portal_uft import _
 from zope import schema
 from zope.interface import implementer
 
+
 class ICampus(Schema):
     """Schema of a campus."""
 
