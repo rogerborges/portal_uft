@@ -10,7 +10,17 @@ class ICampus(Schema):
     """Schema of a campus."""
 
 
-city = schema.TextLine(title=_("City"), required=True)
+title = schema.TextLine(title=_("campus_title", default="Name"), required=True)
+
+description = schema.Text(
+    title=_("campus_description", default="Description"), required=False
+)
+
+city = schema.Choice(
+    title=_("city", default="City"),
+    vocabulary="portal_uft.vocabulary.cities",
+    required=True,
+)
 
 
 @implementer(ICampus)
