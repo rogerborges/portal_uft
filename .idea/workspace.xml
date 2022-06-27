@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e573b35f-8464-41c9-8331-61143e162c1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/customizations/volto/components/theme/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/theme/extras/breadcrumbs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/theme/extras/custom.overrides" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/theme/globals/site.variables" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <workItem from="1656354125951" duration="753000" />
       <workItem from="1656355218373" duration="64000" />
       <workItem from="1656355575451" duration="43000" />
-      <workItem from="1656355711166" duration="313000" />
+      <workItem from="1656355711166" duration="739000" />
     </task>
     <servers />
   </component>
