@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e573b35f-8464-41c9-8331-61143e162c1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/tests/test_content_campus.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/tests/test_content_campus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655921616931</updated>
       <workItem from="1655921630974" duration="15952000" />
-      <workItem from="1656090342031" duration="11411000" />
+      <workItem from="1656090342031" duration="14295000" />
     </task>
     <servers />
   </component>
