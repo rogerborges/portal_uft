@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e573b35f-8464-41c9-8331-61143e162c1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/customizations/volto/components/theme/Logo/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/customizations/volto/components/theme/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +28,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/paulorogerio/PycharmProjects/portal-uft/frontend/src/customizations/volto/components/theme/Logo",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.selected.package.stylelint": "",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/paulorogerio/PycharmProjects/portal-uft/frontend/src/customizations/volto/components/theme/Logo&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;/home/paulorogerio/PycharmProjects/portal-uft/frontend/omelette/node_modules/stylelint&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/src/customizations/volto/components/theme/Logo" />
@@ -57,7 +56,12 @@
       <option name="presentableId" value="Default" />
       <updated>1655921616931</updated>
       <workItem from="1655921630974" duration="15952000" />
-      <workItem from="1656090342031" duration="15353000" />
+      <workItem from="1656090342031" duration="15449000" />
+      <workItem from="1656353931230" duration="94000" />
+      <workItem from="1656354125951" duration="753000" />
+      <workItem from="1656355218373" duration="64000" />
+      <workItem from="1656355575451" duration="43000" />
+      <workItem from="1656355711166" duration="313000" />
     </task>
     <servers />
   </component>
