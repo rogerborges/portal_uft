@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e573b35f-8464-41c9-8331-61143e162c1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/theme/extras/breadcrumbs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/theme/extras/custom.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/theme/globals/site.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/en/LC_MESSAGES/portal_uft.po" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/en/LC_MESSAGES/portal_uft.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/portal_uft.pot" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/portal_uft.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/pt_BR/LC_MESSAGES/portal_uft.po" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/pt_BR/LC_MESSAGES/portal_uft.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/es/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/es/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/eu/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/eu/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/fr/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/fr/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/it/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/it/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/ja/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/ja/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/pt/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/pt/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/pt_BR/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/pt_BR/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/volto.pot" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/volto.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/theme/extras/breadcrumbs.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/theme/extras/breadcrumbs.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +72,7 @@
       <workItem from="1656354125951" duration="753000" />
       <workItem from="1656355218373" duration="64000" />
       <workItem from="1656355575451" duration="43000" />
-      <workItem from="1656355711166" duration="739000" />
+      <workItem from="1656355711166" duration="2755000" />
     </task>
     <servers />
   </component>
