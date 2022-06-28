@@ -1,4 +1,4 @@
-"""A Campus in the site."""
+"""A Campus profile in the site."""
 from plone.dexterity.content import Container
 from plone.supermodel.model import Schema
 from portal_uft import _
@@ -7,7 +7,7 @@ from zope.interface import implementer
 
 
 class ICampus(Schema):
-    """Schema of a campus."""
+    """Schema of a campus profile."""
 
     title = schema.TextLine(title=_("campus_title", default="Name"), required=True)
 
@@ -16,7 +16,9 @@ class ICampus(Schema):
     )
 
     city = schema.Choice(
-        title=_("city", default="City"),
+        title=_(
+            "City",
+        ),
         vocabulary="portal_uft.vocabulary.cities",
         required=True,
     )
@@ -24,4 +26,4 @@ class ICampus(Schema):
 
 @implementer(ICampus)
 class Campus(Container):
-    """A campus in the site."""
+    """A campus profile in the site."""

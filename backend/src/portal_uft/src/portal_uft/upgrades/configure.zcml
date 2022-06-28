@@ -24,14 +24,13 @@
         import_steps="typeinfo"
         />
   </genericsetup:upgradeSteps>
-
   <genericsetup:upgradeSteps
       profile="portal_uft:default"
       source="20220622003"
       destination="20220623001"
       >
     <genericsetup:upgradeDepends
-        title="Apply Contact Info behavior to a Person"
+        title="Apply ContactInfo behavior to a Person"
         import_steps="typeinfo"
         />
   </genericsetup:upgradeSteps>
@@ -41,9 +40,8 @@
       destination="20220624001"
       >
     <genericsetup:upgradeDepends
-        title="Create content Campus"
+        title="Add Person content type"
         import_steps="typeinfo"
         />
   </genericsetup:upgradeSteps>
-
 </configure>

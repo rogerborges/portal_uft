@@ -12,33 +12,42 @@ class TestPortalSettings(unittest.TestCase):
 
     def setUp(self):
         """Custom shared utility setup for tests."""
+        super().setUp()
         self.portal = self.layer["portal"]
 
     def test_portal_title(self):
         """Test portal title."""
         value = api.portal.get_registry_record("plone.site_title")
-        expected = "Portal UFT"
+        expected = "Portal da UFT"
         self.assertEqual(value, expected)
 
     def test_portal_timezone(self):
-        """Testa se o timezone está correto."""
+        """Test portal timezone."""
         value = api.portal.get_registry_record("plone.portal_timezone")
+        notExpected = "America/Sao_Paulo"
         expected = "America/Araguaina"
         self.assertEqual(value, expected)
+        self.assertNotEquals(value, notExpected)
 
-    def test_portal_sitemap(self):
-        """Testa se o sitemap está habilitado."""
+    def test_portal_enabled_sitemap(self):
+        """Test portal enabled sitemap."""
         value = api.portal.get_registry_record("plone.enable_sitemap")
         self.assertTrue(value)
 
-    def test_portal_email_address(self):
-        """Valida o endereço de email do portal."""
-        value = api.portal.get_registry_record("plone.email_from_address")
-        expected = "paulorogerio@uft.edu.br"
-        self.assertEqual(value, expected)
-
-    def test_portal_email_name(self):
-        """Valida o nome usado pelo email do portal."""
+    def test_portal_mail_name(self):
+        """Test portal mail name."""
         value = api.portal.get_registry_record("plone.email_from_name")
-        expected = "Portal UFT"
-        self.assertEqual(value, expected)
+        expected = "Portal da UFT"
+        self.assertEquals(expected, value)
+
+    def test_portal_mail_address(self):
+        """Test portal mail address."""
+        value = api.portal.get_registry_record("plone.email_from_address")
+        expected = "naoresponder@dti.uft.edu.br"
+        self.assertEquals(expected, value)
+
+    def test_portal_twitter(self):
+        """Test portal twitter."""
+        value = api.portal.get_registry_record("plone.twitter_username")
+        expected = "uft_oficial"
+        self.assertEquals(expected, value)

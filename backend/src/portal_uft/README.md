@@ -1,6 +1,6 @@
 # portal_uft
 
-A new project using Plone 6.
+Portal da UFT utilizando Plone 6
 
 ## Features
 
@@ -39,8 +39,8 @@ And to create the Plone site:
 
 ## Contribute
 
-- [Issue Tracker](https://github.com/rogerborges/portal-uft/issues)
-- [Source Code](https://github.com/rogerborges/portal-uft/)
+- [Issue Tracker](https://github.com/meloflavio/portal-uft/issues)
+- [Source Code](https://github.com/meloflavio/portal-uft/)
 
 ## License
 

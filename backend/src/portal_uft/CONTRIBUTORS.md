@@ -1,3 +1,3 @@
 # Contributors
 
-- rogerborges [paulorogerio@uft.edu.br]
+- meloflavio [meloflavio@uft.edu.br]

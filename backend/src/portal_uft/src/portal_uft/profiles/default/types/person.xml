@@ -27,10 +27,10 @@
   <property name="add_permission">cmf.AddPortalContent</property>
   <property name="klass">portal_uft.content.person.Person</property>
   <property name="behaviors">
+    <element value="portal-uft.contact_info" />
     <element value="plone.shortname" />
     <element value="plone.leadimage" />
     <element value="plone.namefromtitle" />
-    <element value="portal_uft.contact_info" />
   </property>
   <property name="schema">portal_uft.content.person.IPerson</property>
   <property name="model_source" />

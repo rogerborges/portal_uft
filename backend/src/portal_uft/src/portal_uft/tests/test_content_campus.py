@@ -1,7 +1,6 @@
 from kitconcept import api
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
-from portal_uft import validators
 from portal_uft.content.campus import ICampus
 from portal_uft.testing import PORTAL_UFT_INTEGRATION_TESTING
 from zope.component import createObject
@@ -43,6 +42,7 @@ class CampusIntegrationTest(unittest.TestCase):
             type=self.portal_type,
             title="Palmas",
             description="Campus da UFT em Palmas",
+            city="palmas",
             email="palmas@uft.edu.br",
             extension="2022",
         )
@@ -55,11 +55,11 @@ class CampusIntegrationTest(unittest.TestCase):
             type=self.portal_type,
             title="Palmas",
             description="Campus da UFT em Palmas",
-            email="palmas@uft.edu.br",
             city="palmas",
+            email="palmas@uft.edu.br",
             extension="2022",
         )
-        self.assertIn("Campus: palmas", obj.subject)
+        self.assertIn("Campus: Palmas", obj.subject)
 
     def test_subscriber_modified(self):
         from zope.event import notify
@@ -69,11 +69,26 @@ class CampusIntegrationTest(unittest.TestCase):
             container=self.portal,
             type=self.portal_type,
             title="Palmas",
-            description="Campus da UFT em Araguaína",
-            email="araguaina@uft.edu.br",
-            city="araguaina",
+            description="Campus da UFT em Palmas",
+            email="palmas@uft.edu.br",
+            city="palmas",
             extension="2022",
         )
         obj.city = "araguaina"
         notify(ObjectModifiedEvent(obj))
-        self.assertIn("Campus: araguaina", obj.subject)
+        self.assertIn("Campus: Araguaína", obj.subject)
+
+    def test_subscriber_create_add_group(self):
+        obj = api.content.create(
+            container=self.portal,
+            type=self.portal_type,
+            title="Palmas",
+            description="Campus da UFT em Palmas",
+            email="palmas@uft.edu.br",
+            city="palmas",
+            extension="2022",
+        )
+
+        groupName = f"group_{obj.title}"
+        group = api.group.get(groupName)
+        self.assertTrue(group)

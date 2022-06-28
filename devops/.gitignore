@@ -5,7 +5,7 @@
 bin
 include
 inventory/prod.yml
-host_vars/rogerborges-prod.yml
+host_vars/meloflavio-prod.yml
 lib
 lib64
 pyvenv.cfg

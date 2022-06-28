@@ -16,6 +16,6 @@ CITIES = [
 def cities_vocabulary(context):
     """Vocabulary of cities in TO."""
     terms = []
-    for id_, title in CITIES:
-        terms.append(SimpleTerm(id_, id_, title))
+    for token, title in CITIES:
+        terms.append(SimpleTerm(token, token, title))
     return SimpleVocabulary(terms)

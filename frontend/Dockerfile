@@ -16,10 +16,10 @@ RUN yarn install \
 
 FROM base
 
-LABEL maintainer="Paulo Rogerio <paulorogerio@uft.edu.br>" \
+LABEL maintainer="Flavio Melo <meloflavio@uft.edu.br>" \
       org.label-schema.name="portal-uft-frontend" \
       org.label-schema.description="Portal UFT frontend image." \
-      org.label-schema.vendor="Paulo Rogerio"
+      org.label-schema.vendor="Flavio Melo"
 
 RUN apt-get update \
     && buildDeps="busybox" \

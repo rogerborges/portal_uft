@@ -13,7 +13,6 @@ import {
   LanguageSelector,
   Logo,
   Navigation,
-  SearchWidget,
 } from '@plone/volto/components';
 
 /**
@@ -64,9 +63,6 @@ class Header extends Component {
                   <Anontools />
                 </div>
               )}
-              <div className="search">
-                <SearchWidget />
-              </div>
             </div>
           </div>
         </Container>

@@ -6,7 +6,7 @@
     <value key="available_timezones">
       <element>America/Araguaina</element>
     </value>
-    <value key="first_weekday">0</value>
+    <value key="first_weekday">6</value>
     <value key="portal_timezone">America/Araguaina</value>
   </records>
 </registry>

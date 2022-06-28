@@ -4,6 +4,6 @@
            prefix="plone"
   >
     <value key="share_social_data">True</value>
-    <value key="twitter_username">UFT</value>
+    <value key="twitter_username">uft_oficial</value>
   </records>
 </registry>

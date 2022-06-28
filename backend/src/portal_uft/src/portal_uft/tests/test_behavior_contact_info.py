@@ -11,7 +11,7 @@ class ContactInfoBehaviorTest(unittest.TestCase):
 
     layer = PORTAL_UFT_INTEGRATION_TESTING
 
-    BEHAVIOR = "portal_uft.contact_info"
+    BEHAVIOR = "portal-uft.contact_info"
 
     def setUp(self):
         """Custom shared utility setup for tests."""
@@ -26,4 +26,11 @@ class ContactInfoBehaviorTest(unittest.TestCase):
         )
 
     def test_applied_in_person(self):
-        self.assertIn(self.BEHAVIOR, api.fti.behaviors_for_type("person"))
+        portal_type = "person"
+        behaviors = api.fti.behaviors_for_type(portal_type)
+        self.assertIn(self.BEHAVIOR, behaviors)
+
+    def test_applied_in_campus(self):
+        portal_type = "campus"
+        behaviors = api.fti.behaviors_for_type(portal_type)
+        self.assertIn(self.BEHAVIOR, behaviors)
