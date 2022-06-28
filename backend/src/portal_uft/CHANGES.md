@@ -3,4 +3,4 @@
 
 ## 1.0a1 (unreleased)
 
-- Initial version. [meloflavio]
+- Initial version. [paulorogerio]

@@ -39,8 +39,8 @@ And to create the Plone site:
 
 ## Contribute
 
-- [Issue Tracker](https://github.com/meloflavio/portal-uft/issues)
-- [Source Code](https://github.com/meloflavio/portal-uft/)
+- [Issue Tracker](https://github.com/rogerborges/portal-uft/issues)
+- [Source Code](https://github.com/rogerborges/portal-uft/)
 
 ## License
 

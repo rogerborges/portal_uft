@@ -1,10 +1,10 @@
 ARG PLONE_VERSION=6.0.0a6
 FROM plone/plone-backend:${PLONE_VERSION}
 
-LABEL maintainer="Flavio Melo <meloflavio@uft.edu.br>" \
+LABEL maintainer="Paulo Rogerio <paulorogerio@uft.edu.br>" \
       org.label-schema.name="portal-uft-backend" \
       org.label-schema.description="Portal UFT backend image." \
-      org.label-schema.vendor="Flavio Melo"
+      org.label-schema.vendor="Paulo Rogerio"
 
 # Add local code
 COPY . .
