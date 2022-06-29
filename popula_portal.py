@@ -79,7 +79,7 @@ add_to_plone(
         "@type": "Document",
         "id": "campus-palmas",
         "title": "Campus Palmas",
-        "description": "Lista de Campus da UFT",
+        "description": "Campus de Palmas",
     },
 )
 
@@ -90,6 +90,6 @@ add_to_plone(
         "@type": "Document",
         "id": "campus-araguaina",
         "title": "Campus Araguaína",
-        "description": "Lista de Campus da UFT",
+        "description": "Campus de Araguaína",
     },
 )
