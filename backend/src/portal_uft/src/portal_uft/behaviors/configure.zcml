@@ -3,8 +3,9 @@
     xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="portal_uft"
     >
+
   <plone:behavior
-      name="portal-uft.contact_info"
+      name="portal_uft.contact_info"
       title="Contact Information"
       description="Add e-mail and extension fields to a contact."
       provides=".contact_info.IContactInfo"

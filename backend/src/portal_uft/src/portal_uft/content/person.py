@@ -16,6 +16,15 @@ class IPerson(Schema):
         title=_("person_description", default="Biography"), required=False
     )
 
+    campus = schema.Set(
+        title=_("person_campus", default="Campus"),
+        required=False,
+        default=set(),
+        value_type=schema.Choice(
+            vocabulary="portal_uft.vocabulary.campus",
+        ),
+    )
+
     @invariant
     def validate_email(data):
         """Validate email set by the user."""

@@ -1,6 +1,4 @@
 from kitconcept import api
-from plone.app.testing import setRoles
-from plone.app.testing import TEST_USER_ID
 from portal_uft.behaviors import contact_info
 from portal_uft.testing import PORTAL_UFT_INTEGRATION_TESTING
 
@@ -8,17 +6,17 @@ import unittest
 
 
 class ContactInfoBehaviorTest(unittest.TestCase):
+    """Test Contact Info behavior."""
 
     layer = PORTAL_UFT_INTEGRATION_TESTING
 
-    BEHAVIOR = "portal-uft.contact_info"
+    BEHAVIOR = "portal_uft.contact_info"
 
     def setUp(self):
         """Custom shared utility setup for tests."""
         self.portal = self.layer["portal"]
-        setRoles(self.portal, TEST_USER_ID, ["Manager"])
 
-    def test_behavior_footer(self):
+    def test_behavior_contact_info(self):
         behavior = api.fti.get_behavior_registration(self.BEHAVIOR)
         self.assertEqual(
             behavior.marker,

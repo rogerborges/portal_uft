@@ -5,10 +5,10 @@ from zope.schema.vocabulary import SimpleVocabulary
 
 
 CITIES = [
-    ("palmas", "Palmas"),
-    ("araguaina", "Araguaína"),
-    ("gurupi", "Gurupi"),
-    ("porto-nacional", "Porto Nacional"),
+    ["palmas", "Palmas"],
+    ["araguaina", "Araguaína"],
+    ["gurupi", "Gurupi"],
+    ["porto-nacional", "Porto Nacional"],
 ]
 
 
