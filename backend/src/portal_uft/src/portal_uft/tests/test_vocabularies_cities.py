@@ -7,11 +7,11 @@ import unittest
 VOCABULARY = "portal_uft.vocabulary.cities"
 
 
-class TestIndustriesVocabulary(unittest.TestCase):
+class TestCitiesVocabulary(unittest.TestCase):
 
     layer = PORTAL_UFT_INTEGRATION_TESTING
 
-    def setUp(self):
+    def setUp(self) -> None:
         self.portal = self.layer["portal"]
 
     def test_vocabulary(self):
@@ -22,6 +22,7 @@ class TestIndustriesVocabulary(unittest.TestCase):
     def test_vocabulary_titles(self):
         vocab = api.vocabulary.get(VOCABULARY)
         titles = [term.title for term in vocab]
+
         self.assertIn("Palmas", titles)
         self.assertIn("Araguaína", titles)
         self.assertIn("Gurupi", titles)
