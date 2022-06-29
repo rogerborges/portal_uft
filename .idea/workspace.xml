@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e573b35f-8464-41c9-8331-61143e162c1d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/popula_portal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/Dockerfile.acceptance" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile.acceptance" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/CHANGES.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/CONTRIBUTORS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devops/.env_local" beforeDir="false" afterPath="$PROJECT_DIR$/devops/.env_local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devops/group_vars/all/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/devops/group_vars/all/users.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +22,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/frontend/package.json" />
   </component>
   <component name="ProjectId" id="2AwXQYQuqLlbRHNdG6TnzlXlooa" />
   <component name="ProjectViewState">
@@ -71,7 +66,7 @@
       <workItem from="1656355218373" duration="64000" />
       <workItem from="1656355575451" duration="43000" />
       <workItem from="1656355711166" duration="9903000" />
-      <workItem from="1656439069923" duration="3270000" />
+      <workItem from="1656439069923" duration="9330000" />
     </task>
     <servers />
   </component>
