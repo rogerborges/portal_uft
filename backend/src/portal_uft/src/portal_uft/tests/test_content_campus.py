@@ -61,6 +61,19 @@ class CampusIntegrationTest(unittest.TestCase):
         )
         self.assertIn("Campus: Palmas", obj.subject)
 
+    def test_subscriber_added_group(self):
+        obj = api.content.create(
+            container=self.portal,
+            type=self.portal_type,
+            title="Palmas",
+            description="Campus da UFT em Palmas",
+            city="palmas",
+            email="palmas@uft.edu.br",
+            extension="2022",
+        )
+        group = api.group.get(groupname=f"group_{obj.title}")
+        self.assertTrue(group)
+
     def test_subscriber_modified(self):
         from zope.event import notify
         from zope.lifecycleevent import ObjectModifiedEvent
@@ -78,8 +91,8 @@ class CampusIntegrationTest(unittest.TestCase):
         notify(ObjectModifiedEvent(obj))
         self.assertIn("Campus: Araguaína", obj.subject)
 
-    def test_subscriber_create_add_group(self):
-        obj = api.content.create(
+    def test_back_relation_person(self):
+        campus = api.content.create(
             container=self.portal,
             type=self.portal_type,
             title="Palmas",
@@ -88,7 +101,20 @@ class CampusIntegrationTest(unittest.TestCase):
             city="palmas",
             extension="2022",
         )
-
-        groupName = f"group_{obj.title}"
-        group = api.group.get(groupName)
-        self.assertTrue(group)
+        api.content.transition(campus, "publish")
+        campus_uuid = api.content.get_uuid(campus)
+        person = api.content.create(
+            container=self.portal,
+            type="person",
+            title="Alex Limi",
+            description="Plone Founder",
+            email="limi@uft.edu.br",
+            extension="1999",
+            campus={campus_uuid},
+        )
+        self.assertEqual(
+            campus.persons(),
+            [
+                person,
+            ],
+        )
