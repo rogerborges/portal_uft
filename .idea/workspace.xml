@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e573b35f-8464-41c9-8331-61143e162c1d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blocks/CampusBlock/Data.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blocks/CampusBlock/Edit.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blocks/CampusBlock/Sidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blocks/CampusBlock/View.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blocks/CampusBlock/schema.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/en/LC_MESSAGES/portal_uft.po" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/en/LC_MESSAGES/portal_uft.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/portal_uft.pot" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/portal_uft.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/pt_BR/LC_MESSAGES/portal_uft.po" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/locales/pt_BR/LC_MESSAGES/portal_uft.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/de/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/de/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/en/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/en/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/es/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/es/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/eu/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/eu/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/fr/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/fr/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/it/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/it/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/ja/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/ja/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/nl/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/nl/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/pt/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/pt/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/pt_BR/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/pt_BR/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/ro/LC_MESSAGES/volto.po" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/ro/LC_MESSAGES/volto.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/locales/volto.pot" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/locales/volto.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blocks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blocks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/paulorogerio/PycharmProjects/portal-uft/backend/src/portal_uft/src/portal_uft/profiles/default/workflows",
+    "last_opened_file_path": "/home/paulorogerio/PycharmProjects/portal-uft/frontend/src/components/Blocks/CampusBlock",
     "node.js.detected.package.stylelint": "true",
     "node.js.selected.package.stylelint": "/home/paulorogerio/PycharmProjects/portal-uft/frontend/omelette/node_modules/stylelint",
     "nodejs_package_manager_path": "yarn",
@@ -46,11 +68,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/Blocks/CampusBlock" />
       <recent name="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/profiles/default/workflows" />
       <recent name="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/profiles/default" />
       <recent name="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/tests" />
       <recent name="$PROJECT_DIR$/frontend/src/customizations/volto/components/theme/Logo" />
-      <recent name="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/profiles/default/registry" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,7 +91,7 @@
       <workItem from="1656355575451" duration="43000" />
       <workItem from="1656355711166" duration="9903000" />
       <workItem from="1656439069923" duration="17441000" />
-      <workItem from="1656609324114" duration="5627000" />
+      <workItem from="1656609324114" duration="7876000" />
     </task>
     <servers />
   </component>
