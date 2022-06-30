@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e573b35f-8464-41c9-8331-61143e162c1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/content/campus.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/portal_uft/src/portal_uft/content/campus.py" afterDir="false" />
-    </list>
+    <list default="true" id="e573b35f-8464-41c9-8331-61143e162c1d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +65,7 @@
       <workItem from="1656355575451" duration="43000" />
       <workItem from="1656355711166" duration="9903000" />
       <workItem from="1656439069923" duration="17441000" />
-      <workItem from="1656609324114" duration="1648000" />
+      <workItem from="1656609324114" duration="1954000" />
     </task>
     <servers />
   </component>
