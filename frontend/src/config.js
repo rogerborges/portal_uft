@@ -30,5 +30,13 @@ export default function applyConfig(config) {
     'campusBlock',
   ];
 
+  config.blocks.groupBlocksOrder = [
+    { id: 'uft', title: 'UFT' },
+    { id: 'mostUsed', title: 'Most used' },
+    { id: 'text', title: 'Text' },
+    { id: 'media', title: 'Media' },
+    { id: 'common', title: 'Common' },
+  ];
+
   return config;
 }
