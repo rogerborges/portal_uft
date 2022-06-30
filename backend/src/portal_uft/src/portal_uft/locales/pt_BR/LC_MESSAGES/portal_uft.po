@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-06-27 20:05+0000\n"
+"POT-Creation-Date: 2022-06-30 20:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
-#: portal_uft/behaviors/configure.zcml:11
+#: portal_uft/behaviors/configure.zcml:12
 msgid "Add e-mail and extension fields to a contact."
 msgstr "Adiciona os campos e-mail e ramal a um conteúdo."
 
@@ -26,15 +26,11 @@ msgstr "Campus"
 msgid "Campus in the site"
 msgstr "Campus no site"
 
-#: portal_uft/content/campus.py:19
-msgid "City"
-msgstr "Cidade"
-
-#: portal_uft/behaviors/contact_info.py:15
+#: portal_uft/behaviors/contact_info.py:13
 msgid "Contact"
 msgstr "Contato"
 
-#: portal_uft/behaviors/configure.zcml:11
+#: portal_uft/behaviors/configure.zcml:12
 msgid "Contact Information"
 msgstr "Informações de Contato"
 
@@ -42,7 +38,7 @@ msgstr "Informações de Contato"
 msgid "Education"
 msgstr ""
 
-#: portal_uft/behaviors/contact_info.py:19
+#: portal_uft/behaviors/contact_info.py:17
 msgid "Extension"
 msgstr "Ramal"
 
@@ -90,15 +86,15 @@ msgstr "O valor está incorreto"
 msgid "Uninstall Portal UFT setup."
 msgstr "Desinstala a configuração do Portal UFT"
 
-#. Default: "Description"
-#: portal_uft/content/campus.py:15
-msgid "campus_description"
-msgstr "Descrição"
+#. Default: "City"
+#: portal_uft/content/campus.py:16
+msgid "city"
+msgstr ""
 
-#. Default: "Name"
-#: portal_uft/content/campus.py:12
-msgid "campus_title"
-msgstr "Nome do Campus"
+#. Default: "Campus"
+#: portal_uft/content/person.py:20
+msgid "person_campus"
+msgstr ""
 
 #. Default: "Biography"
 #: portal_uft/content/person.py:16
@@ -106,7 +102,7 @@ msgid "person_description"
 msgstr "Biografia"
 
 #. Default: "E-mail"
-#: portal_uft/behaviors/contact_info.py:16
+#: portal_uft/behaviors/contact_info.py:14
 msgid "person_email"
 msgstr "E-mail"
 
